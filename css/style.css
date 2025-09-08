@@ -1,0 +1,86 @@
+.service-section{
+    background-image: url(../images/7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.our-work .our-work-content a{
+    float: right;
+    transform: translateY(-200%);
+}
+
+.our-work .our-work-content i{
+    display: none;
+    margin-right: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.our-work .our-work-content a:hover{
+    background-color: #fff;
+    color: #666666;
+}
+
+.our-work .our-work-content a:hover i{
+    display: inline-block;
+}
+
+.counter{
+    background-image: url(../images/5.jpg);
+}
+
+.team{
+    background-color: #F7F9FB;
+}
+.team .card{
+    border: none;
+}
+
+.team .btn{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(212, 212, 212);
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.team .btn i{
+    margin-right: 10px;
+    color: #535353;
+}
+
+.team .btn:hover i{
+    animation: icon 0.5s ease-in-out;
+}
+
+@keyframes icon{
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
+.team .btn:hover{
+    width: 120px;
+}
+
+
+.accordion-button {
+    background-color: #f8f9fa; 
+    color: #000; 
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #f8f9fa;
+    color: #000; 
+    box-shadow: none; 
+}
+
+
+.accordion-button:hover {
+    background-color: #e2e6ea;
+}
